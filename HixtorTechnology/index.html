@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hixtor Technology</title>
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="style.css">
+    <!-- BOOTSTRAP CSS FILE -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- JS FILE -->
+    <script src="srcipt.js"></script>
+    <!-- BOOTSTRAP JS FILE -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP ICON -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        .content-overlay {
+            position: absolute;
+            display: block;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -90%);
+            color: white;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+        }
+
+      
+
+        .image-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+        }
+        .image-container img:hover {
+            opacity: 0.6; /* Adjust the opacity level for the hover effect */
+        }
+        .image-container img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ------------------------------------------ HEADER --------------------------------------------------------------- -->
+    <div class="card" style="display: flex;">
+        <div class="card-header" style="background-color: black; color: gray;">
+            <i class="bi bi-geo-alt" style="color: green;"> </i>8-2-674/8/2/10/1, Piot No 104, Road No.13A Banjara
+            Hills, Khairatabad Hyderabad TG 500034 IN <i class="bi bi-envelope-fill" style="color: green;"> </i>
+            info@intellaticssoftwaresolutions.com
+        </div>
+    </div>
+
+    <!-- ------------------------------------------ NAVBAR --------------------------------------------------------------- -->
+    <div>
+        <nav class="navbar navbar-expand-lg bg-white ">
+            <div class="container-fluid">
+                <a class="navbar-brand text-warning " href="#">
+                    <img src="/HixtorTechnology/Imgs/carsole/1.jpg" height="60" width="55">
+                    &nbsp; <span class="text-secondary h4 "><b> Hixtor
+                            Technology <i class="bi bi-graph-up-arrow"></i></b> </span>
+                </a>
+                <button class="navbar-toggler bg-border-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            Services</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Projects</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Our Team</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- ------------------------------------------ SlIDEBAR carousel --------------------------------------------------------------- -->
+
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="/HixtorTechnology/Imgs/carsole/1.jpg" class="d-block w-100 " alt="...">
+                    <div class="content-overlay">
+                        <div class="image-container">
+                        <h5>Best IT Solutions</h5>
+                        <h1 style="font-size: 50px;">TOP-RATED WEB AND MOBILE APP DEVELOPMENT COMPANY</h1>
+                    </div>
+                    <button class="btn btn-success" type="submit">READ MORE</button>
+                        <input class="btn btn-primary" type="submit" value="CONTACT US">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+            </div>
+
+                <div class="carousel-item">
+                    
+                    <img src="/HixtorTechnology/Imgs/carsole/4.jpg" class="d-block w-100" alt="...">
+                    <div class="content-overlay">
+                        <div class="image-container">
+                        <h5>Best IT Solutions</h5>
+                        <h1 style="font-size: 50px;">KNOW HOW WE COLLABORATE WITH OUR CLIENTS</h1>
+                        <button class="btn btn-success" type="submit" href="#">READ MORE</button>
+                        <input class="btn btn-primary" type="submit" href="#" value="CONTACT US">
+                    </div>
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- carousel -->
+    
+        <div class="container card" style="display: flex;">
+            <div class="row card-header" style="background-color: rgb(40, 216, 146); color: rgb(230, 223, 223); font-size: 25px;">
+                <div class="col-md-3 col-sm-6">
+                    <div class="box"><sup>99 </sup>Success in getting happy customer</div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="box"><sup>25 </sup>Thousands of successful business</div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="box"><sup>120 </sup>Total clients who love HighTech</div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="box"><sup>5 </sup> Stars reviews given by satisfied clients</div>
+                </div>
+            </div>
+        </div>
+    
+
+
+ 
+
+
+        <!-- Bootstrap JS and dependencies -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
