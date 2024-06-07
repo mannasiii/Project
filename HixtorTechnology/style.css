@@ -1,3 +1,5 @@
+
+
 .box {
     color: rgb(255, 255, 255);
     padding: 20px;
@@ -9,6 +11,9 @@
     
     
 }
+
+    
+
 /* About */
 .container-about{
     position: relative;
@@ -161,7 +166,7 @@ div {
     margin-right: auto;
     margin-left: auto;
 }
-@media (min-width: 768px) {
+@media screen (min-width: 768px) {
     .container-md, .container-sm, .container {
         max-width: 720px;
     }
