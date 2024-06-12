@@ -97,7 +97,19 @@
     width: 40%; /* Adjust width as needed */
     height: 200px; /* Adjust height as needed */
 }
-
+.about-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+    justify-content: space-evenly;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100px;
+    height: 70vh;
+    padding: 20px; /* Added padding for spacing */
+}
 .image {
     position: absolute;
     top: 0;
